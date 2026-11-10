@@ -17,14 +17,14 @@ Les 20 ajouts rythmiques proviennent du catalogue officiel d’Incompetech, sous
 
 La direction musicale s’inspire des [collections pour podcasts de Podcast.co](https://www.podcast.co/resources/royalty-free-music) et des arrangements acoustiques minimalistes de [Blue Dot Sessions pour la radio](https://freemusicarchive.org/music/Blue_Dot_Sessions/The_Sweet_Hots). Ces collections servent de références éditoriales ; leurs pistes ne sont pas intégrées au pack.
 
-Les extraits locaux durent 90 à 120 secondes. La sélection du passage, l’harmonisation du niveau et les microfondus conservent le tempo et la hauteur. Le manifeste [selection.json](app/public/audio/podcast-music/selection.json) décrit la sélection ; [sources.json](app/public/audio/podcast-music/sources.json) contient les sources, auteurs, licences, découpes et empreintes des fichiers originaux et préparés. Le script `app/scripts/prepare-podcast-music.py` reproduit ces fichiers.
+Les extraits locaux durent 90 à 120 secondes. La sélection du passage, l’harmonisation du niveau et les microfondus conservent le tempo et la hauteur. Le manifeste [selection.json](public/audio/podcast-music/selection.json) décrit la sélection ; [sources.json](public/audio/podcast-music/sources.json) contient les sources, auteurs, licences, découpes et empreintes des fichiers originaux et préparés. Le script `scripts/prepare-podcast-music.py` reproduit ces fichiers.
 
 La [licence Pixabay](https://pixabay.com/service/license-summary/) interdit la redistribution du contenu seul : les nouvelles musiques de fond de ce pack utilisent donc des licences Creative Commons adaptées à la redistribution avec attribution. Les arrangements de jingle déjà présents gardent leurs sources et licences propres.
 
 ## Bruitages, ambiances et jingles
 
-Les bruitages et ambiances sont des extraits CC0 de LaSonothèque et Freesound. Les reconstitutions historiques mentionnent les sources de chaque composant. Les manifestes sont dans `app/public/audio/curated-sounds/sources.json`, `app/public/audio/jingle-endings/sources.json` et `app/public/audio/jingles/sources.json`.
+Les bruitages et ambiances sont des extraits CC0 de LaSonothèque et Freesound. Les reconstitutions historiques mentionnent les sources de chaque composant. Les manifestes sont dans `public/audio/curated-sounds/sources.json`, `public/audio/jingle-endings/sources.json` et `public/audio/jingles/sources.json`.
 
 ## Attribution lors de la publication
 
-La page exhaustive est [app/public/audio-credits.html](app/public/audio-credits.html). Chaque choix possède aussi un lien Source dans l’application. L’écran de téléchargement permet d’obtenir un fichier texte avec les crédits des musiques et sons utilisés, y compris les fonds de partie et les anciens fonds associés aux voix. Ces crédits sont à joindre à la description du podcast publié.
+La page exhaustive est [public/audio-credits.html](public/audio-credits.html). Chaque choix possède aussi un lien Source dans l’application. L’écran de téléchargement permet d’obtenir un fichier texte avec les crédits des musiques et sons utilisés, y compris les fonds de partie et les anciens fonds associés aux voix. Ces crédits sont à joindre à la description du podcast publié.
